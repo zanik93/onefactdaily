@@ -1,5 +1,5 @@
 """Schedules today's fact as a Brevo campaign for 08:00 Europe/Sofia."""
-import json, os, datetime as dt, urllib.request
+import json, os, datetime as dt, urllib.request, urllib.error
 from zoneinfo import ZoneInfo
 TZ = ZoneInfo("Europe/Sofia")
 KEY, LIST, SENDER = os.environ["BREVO_API_KEY"], int(os.environ["BREVO_LIST_ID"]), os.environ["SENDER_EMAIL"]
@@ -40,7 +40,11 @@ html = f"""<!doctype html>
 def api(path, body):
     r = urllib.request.Request("https://api.brevo.com/v3" + path, json.dumps(body).encode(),
         {"api-key": KEY, "content-type": "application/json", "accept": "application/json"})
-    return urllib.request.urlopen(r).read()
+    try:
+        return urllib.request.urlopen(r).read()
+    except urllib.error.HTTPError as e:
+        details = e.read().decode("utf-8", errors="replace")
+        raise SystemExit(f"Brevo API error {e.code}: {details}") from None
 
 print(api("/emailCampaigns", {"name": f"Fact {i+1:03d} {today}", "subject": f"💡 {f['title']}",
     "sender": {"name": "OneFactDaily", "email": SENDER}, "htmlContent": html,
