@@ -1,0 +1,59 @@
+{
+ "start": "2026-10-06",
+ "facts": [
+  {
+   "cat": "Animals",
+   "title": "Octopuses have three hearts.",
+   "body": "Two hearts pump blood to the gills, while the third pumps blood around the rest of the body. When an octopus swims, its main heart stops beating, which is one reason it often prefers to crawl.",
+   "source": "Smithsonian Ocean"
+  },
+  {
+   "cat": "Food",
+   "title": "Honey can last for thousands of years.",
+   "body": "Its low water content and acidity make it very hard for microbes to grow. Archaeologists have found sealed honey in ancient Egyptian tombs that was still edible.",
+   "source": "Smithsonian Magazine"
+  },
+  {
+   "cat": "Space",
+   "title": "A day on Venus is longer than its year.",
+   "body": "Venus takes about 243 Earth days to rotate once, but only about 225 Earth days to orbit the Sun.",
+   "source": "NASA"
+  },
+  {
+   "cat": "Animals",
+   "title": "Wombats produce cube-shaped poop.",
+   "body": "Researchers found that the intestines of wombats stretch unevenly, which shapes the droppings into cubes that stay put when the animal marks its territory.",
+   "source": "Georgia Tech / Soft Matter (2018)"
+  },
+  {
+   "cat": "Earth",
+   "title": "The Eiffel Tower grows in summer.",
+   "body": "Heat makes the iron expand, so the tower can grow by up to about 15 centimetres on hot days.",
+   "source": "Eiffel Tower official site"
+  },
+  {
+   "cat": "Human Body",
+   "title": "Babies have more bones than adults.",
+   "body": "A newborn has roughly 300 bones. Many fuse as we grow, leaving an adult with 206.",
+   "source": "Cleveland Clinic"
+  },
+  {
+   "cat": "Space",
+   "title": "Sunlight is about 8 minutes old.",
+   "body": "It takes light around 8 minutes and 20 seconds to travel from the Sun to Earth.",
+   "source": "NASA"
+  },
+  {
+   "cat": "History",
+   "title": "Oxford is older than the Aztec Empire.",
+   "body": "Teaching at Oxford existed by 1096, while the Aztec city of Tenochtitlan was founded in 1325.",
+   "source": "University of Oxford"
+  },
+  {
+   "cat": "Animals",
+   "title": "Sharks are older than trees.",
+   "body": "Sharks have existed for over 400 million years, while the first trees appeared roughly 350 to 385 million years ago.",
+   "source": "Smithsonian Ocean"
+  }
+ ]
+}
