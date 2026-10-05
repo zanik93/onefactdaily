@@ -13,12 +13,29 @@ if not 0 <= i < len(d["facts"]):
 f = d["facts"][i]
 when = dt.datetime.combine(today, dt.time(8, 0), TZ)
 
-html = f"""<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;padding:24px;color:#171717">
-<p style="color:#686868;font-size:12px;letter-spacing:1px;text-transform:uppercase">Fact #{i+1:03d} · {f['cat']}</p>
-<h1 style="font-size:30px;line-height:1.1">{f['title']}</h1>
-<p style="font-size:17px;line-height:1.6">{f['body']}</p>
-<p style="color:#686868;font-size:13px">Source: {f['source']}</p><hr style="border:0;border-top:1px solid #e5e5df">
-<p style="font-size:12px;color:#686868"><a href="{SITE}">OneFactDaily</a> · <a href="{{{{ unsubscribe }}}}">Unsubscribe</a></p></div>"""
+html = f"""<!doctype html>
+<html>
+<body style="margin:0;padding:0;background:#f7f7f4;color:#171717;font-family:Arial,Helvetica,sans-serif">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f7f7f4">
+<tr><td align="center" style="padding:28px 14px">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:680px">
+<tr><td style="padding:4px 4px 20px;font-size:18px;font-weight:700;letter-spacing:-.5px">OneFactDaily</td></tr>
+<tr><td style="background:#ffffff;border:1px solid #e5e5df;border-radius:24px;padding:38px 34px">
+<p style="margin:0;color:#686868;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase">Fact #{i+1:03d} · {f['cat']} <span style="float:right">30 SEC READ</span></p>
+<h1 style="margin:30px 0 22px;font-size:42px;line-height:1.05;letter-spacing:-1.5px;font-weight:700">{f['title']}</h1>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#454545">{f['body']}</p>
+<p style="margin:30px 0 0;color:#686868;font-size:13px">Source: {f['source']}</p>
+<hr style="border:0;border-top:1px solid #e5e5df;margin:28px 0">
+<a href="{SITE}" style="display:inline-block;color:#171717;font-size:16px;text-decoration:underline">Browse today's fact →</a>
+</td></tr>
+<tr><td style="padding:22px 4px 4px;color:#686868;font-size:12px;line-height:1.6">
+<a href="{SITE}" style="color:#686868;text-decoration:none">OneFactDaily</a> · <a href="{{{{ unsubscribe }}}}" style="color:#686868">Unsubscribe</a>
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>"""
 
 def api(path, body):
     r = urllib.request.Request("https://api.brevo.com/v3" + path, json.dumps(body).encode(),
