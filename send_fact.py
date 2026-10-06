@@ -12,6 +12,8 @@ if not 0 <= i < len(d["facts"]):
     raise SystemExit(f"No fact for {today} (index {i}). Add more facts to facts.json!")
 f = d["facts"][i]
 when = dt.datetime.combine(today, dt.time(8, 0), TZ)
+if when <= dt.datetime.now(TZ):
+    when += dt.timedelta(days=1)
 
 html = f"""<!doctype html>
 <html>
