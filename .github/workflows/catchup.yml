@@ -1,0 +1,15 @@
+name: Send today's fact to new subscribers
+on:
+  schedule: [{cron: "*/30 5-21 * * *"}]   # every 30 min from 08:00 to ~00:00 Sofia time
+  workflow_dispatch:
+jobs:
+  catchup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python catch_up.py
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SITE_URL: ${{ vars.SITE_URL }}
