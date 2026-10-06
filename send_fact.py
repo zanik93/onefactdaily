@@ -13,7 +13,8 @@ if not 0 <= i < len(d["facts"]):
 f = d["facts"][i]
 when = dt.datetime.combine(today, dt.time(8, 0), TZ)
 if when <= dt.datetime.now(TZ):
-    when += dt.timedelta(days=1)
+    # Manual runs after 08:00 should send today's fact as soon as possible.
+    when = dt.datetime.now(TZ) + dt.timedelta(minutes=5)
 
 html = f"""<!doctype html>
 <html>
