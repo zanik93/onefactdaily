@@ -170,6 +170,6 @@
 <script src="facts.js"></script>
 <script>loadFacts().then(({list})=>{const f=list[list.length-1];if(!f)return;
 fmeta.textContent='Fact #'+String(f.n).padStart(3,'0')+' · '+f.cat;ftitle.textContent=f.title;
-fbody.innerHTML='<p>'+f.body+'</p>';fsrc.textContent='Source: '+f.source}).catch(()=>{});</script>
+fbody.innerHTML='<p>'+f.body+'</p>';fsrc.innerHTML='Source: <a href="'+f.sourceUrl+'" target="_blank" rel="noopener">'+f.source+'</a>'}).catch(()=>{});</script>
 </body>
 </html>
