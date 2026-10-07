@@ -9,6 +9,11 @@
   <meta property="og:type" content="website">
   <title>OneFactDaily — One fact. Every day.</title>
   <meta name="description" content="Discover one interesting, verified fact every day. Simple, curious, and delivered straight to your inbox.">
+  <script>
+    if (window.location.hostname === 'zanik93.github.io') {
+      window.location.replace('https://www.onefactdaily.com' + window.location.pathname.replace('/onefactdaily', '') + window.location.search + window.location.hash);
+    }
+  </script>
   <style>
     :root {
       --bg: #f7f7f4;
