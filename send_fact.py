@@ -27,7 +27,7 @@ html = f"""<!doctype html>
 <p style="margin:0;color:#686868;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase">Fact #{i+1:03d} · {f['cat']} <span style="float:right">30 SEC READ</span></p>
 <h1 style="margin:30px 0 22px;font-size:42px;line-height:1.05;letter-spacing:-1.5px;font-weight:700">{f['title']}</h1>
 <p style="margin:0;font-size:18px;line-height:1.65;color:#454545">{f['body']}</p>
-<p style="margin:30px 0 0;color:#686868;font-size:13px">Source: {f['source']}</p>
+<p style="margin:30px 0 0;color:#686868;font-size:13px">Source: <a href="{f['sourceUrl']}" style="color:#686868;text-decoration:underline">{f['source']}</a></p>
 <hr style="border:0;border-top:1px solid #e5e5df;margin:28px 0">
 <a href="{SITE}" style="display:inline-block;color:#171717;font-size:16px;text-decoration:underline">Browse today's fact →</a>
 </td></tr>
