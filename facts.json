@@ -1,78 +1,229 @@
 {
- "start": "2026-10-05",
- "facts": [
-  {
-   "cat": "Animals",
-   "title": "Octopuses have three hearts.",
-   "body": "Two hearts pump blood to the gills, while the third pumps blood around the rest of the body. When an octopus swims, its main heart stops beating, which is one reason it often prefers to crawl.",
-   "source": "Smithsonian Ocean"
-  },
-  {
-   "cat": "Food",
-   "title": "Honey can last for thousands of years.",
-   "body": "Its low water content and acidity make it very hard for microbes to grow. Archaeologists have found sealed honey in ancient Egyptian tombs that was still edible.",
-   "source": "Smithsonian Magazine"
-  },
-  {
-   "cat": "Space",
-   "title": "A day on Venus is longer than its year.",
-   "body": "Venus takes about 243 Earth days to rotate once, but only about 225 Earth days to orbit the Sun.",
-   "source": "NASA"
-  },
-  {
-   "cat": "Animals",
-   "title": "Wombats produce cube-shaped poop.",
-   "body": "Researchers found that the intestines of wombats stretch unevenly, which shapes the droppings into cubes that stay put when the animal marks its territory.",
-   "source": "Georgia Tech / Soft Matter (2018)"
-  },
-  {
-   "cat": "Earth",
-   "title": "The Eiffel Tower grows in summer.",
-   "body": "Heat makes the iron expand, so the tower can grow by up to about 15 centimetres on hot days.",
-   "source": "Eiffel Tower official site"
-  },
-  {
-   "cat": "Human Body",
-   "title": "Babies have more bones than adults.",
-   "body": "A newborn has roughly 300 bones. Many fuse as we grow, leaving an adult with 206.",
-   "source": "Cleveland Clinic"
-  },
-  {
-   "cat": "Space",
-   "title": "Sunlight is about 8 minutes old.",
-   "body": "It takes light around 8 minutes and 20 seconds to travel from the Sun to Earth.",
-   "source": "NASA"
-  },
-  {
-   "cat": "History",
-   "title": "Oxford is older than the Aztec Empire.",
-   "body": "Teaching at Oxford existed by 1096, while the Aztec city of Tenochtitlan was founded in 1325.",
-   "source": "University of Oxford"
-  },
-  {
-   "cat": "Animals",
-   "title": "Sharks are older than trees.",
-   "body": "Sharks have existed for over 400 million years, while the first trees appeared roughly 350 to 385 million years ago.",
-   "source": "Smithsonian Ocean"
-  },
-  {
-  "cat": "Science",
-  "title": "Lightning is about five times hotter than the Sun's surface.",
-  "body": "A lightning bolt heats the air around it to roughly 30,000 °C, while the Sun's visible surface is about 5,500 °C. The Sun's core is far hotter, though, at around 15 million °C.",
-  "source": "NOAA National Weather Service"
- },
- {
-  "cat": "History",
-  "title": "Woolly mammoths were still alive when the Great Pyramid was built.",
-  "body": "The Great Pyramid of Giza went up about 4,500 years ago. The last known woolly mammoths survived on Wrangel Island in the Arctic Ocean until roughly 4,000 years ago.",
-  "source": "EarthSky, on the Wrangel Island mammoth study"
- },
- {
-  "cat": "Space",
-  "title": "Saturn is less dense than water.",
-  "body": "Its average density is about 0.69 g/cm³ versus 1 g/cm³ for water, so in a bathtub big enough to hold it, Saturn would float.",
-  "source": "NASA Goddard"
- }
-
- ]
+  "start": "2026-10-05",
+  "facts": [
+    {
+      "cat": "Animals",
+      "title": "Octopuses have three hearts.",
+      "body": "Two hearts pump blood to the gills, while the third pumps blood around the rest of the body. When an octopus swims, its main heart stops beating, which is one reason it often prefers to crawl.",
+      "source": "Smithsonian Ocean",
+      "sourceUrl": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives"
+    },
+    {
+      "cat": "Food",
+      "title": "Honey can last for thousands of years.",
+      "body": "Its low water content and acidity make it very hard for microbes to grow. Archaeologists have found sealed honey in ancient Egyptian tombs that was still edible.",
+      "source": "Smithsonian Magazine",
+      "sourceUrl": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/"
+    },
+    {
+      "cat": "Space",
+      "title": "A day on Venus is longer than its year.",
+      "body": "Venus takes about 243 Earth days to rotate once, but only about 225 Earth days to orbit the Sun.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    {
+      "cat": "Animals",
+      "title": "Wombats produce cube-shaped poop.",
+      "body": "Researchers found that the intestines of wombats stretch unevenly, which shapes the droppings into cubes that stay put when the animal marks its territory.",
+      "source": "Georgia Tech / Soft Matter (2018)",
+      "sourceUrl": "https://www.nationalgeographic.com/animals/article/wombat-poop-cube-why-is-it-square-shaped"
+    },
+    {
+      "cat": "Earth",
+      "title": "The Eiffel Tower grows in summer.",
+      "body": "Heat makes the iron expand, so the tower can grow by up to about 15 centimetres on hot days.",
+      "source": "Eiffel Tower official site",
+      "sourceUrl": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size"
+    },
+    {
+      "cat": "Human Body",
+      "title": "Babies have more bones than adults.",
+      "body": "A newborn has roughly 300 bones. Many fuse as we grow, leaving an adult with 206.",
+      "source": "Cleveland Clinic",
+      "sourceUrl": "https://health.clevelandclinic.org/how-many-bones-does-a-baby-have"
+    },
+    {
+      "cat": "Space",
+      "title": "Sunlight is about 8 minutes old.",
+      "body": "It takes light around 8 minutes and 20 seconds to travel from the Sun to Earth.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "cat": "History",
+      "title": "Oxford is older than the Aztec Empire.",
+      "body": "Teaching at Oxford existed by 1096, while the Aztec city of Tenochtitlan was founded in 1325.",
+      "source": "University of Oxford",
+      "sourceUrl": "https://www.ox.ac.uk/about/the-university/history"
+    },
+    {
+      "cat": "Animals",
+      "title": "Sharks are older than trees.",
+      "body": "Sharks have existed for over 400 million years, while the first trees appeared roughly 350 to 385 million years ago.",
+      "source": "Smithsonian Ocean",
+      "sourceUrl": "https://ocean.si.edu/ocean-life/sharks-rays/sharks"
+    },
+    {
+      "cat": "Science",
+      "title": "Lightning is about five times hotter than the Sun's surface.",
+      "body": "A lightning bolt heats the air around it to roughly 30,000 °C, while the Sun's visible surface is about 5,500 °C. The Sun's core is far hotter, though, at around 15 million °C.",
+      "source": "NOAA National Weather Service",
+      "sourceUrl": "https://www.nature.com/articles/362337a0"
+    },
+    {
+      "cat": "History",
+      "title": "Woolly mammoths were still alive when the Great Pyramid was built.",
+      "body": "The Great Pyramid of Giza went up about 4,500 years ago. The last known woolly mammoths survived on Wrangel Island in the Arctic Ocean until roughly 4,000 years ago.",
+      "source": "EarthSky, on the Wrangel Island mammoth study",
+      "sourceUrl": "https://www.nationalgeographic.com/science/article/lightning-hottest-thing-earth"
+    },
+    {
+      "cat": "Space",
+      "title": "Saturn is less dense than water.",
+      "body": "Its average density is about 0.69 g/cm³ versus 1 g/cm³ for water, so in a bathtub big enough to hold it, Saturn would float.",
+      "source": "NASA Goddard",
+      "sourceUrl": "https://www.nasa.gov/solar-system/saturn-facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "Neptune has the fastest winds in the solar system.",
+      "body": "Winds on Neptune can whip clouds of frozen methane at more than 2,000 km/h — far faster than the strongest winds measured on Earth.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/neptune/neptune-facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "A teaspoon of neutron-star material would weigh about 10 million tons.",
+      "body": "Neutron stars pack an enormous amount of mass into a tiny volume. A teaspoon of their material would have a mass of roughly 10 million tons on Earth.",
+      "source": "NASA / Hubble",
+      "sourceUrl": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-pulsars/"
+    },
+    {
+      "cat": "Space",
+      "title": "The Sun contains 99.8% of the solar system’s mass.",
+      "body": "Almost all the mass in our solar system is concentrated in the Sun. The planets, moons, asteroids and everything else make up only a small fraction.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "One day on Mercury lasts 176 Earth days.",
+      "body": "A complete solar day on Mercury — from one sunrise to the next — lasts 176 Earth days, even though Mercury rotates once every 59 Earth days.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "Uranus spins almost on its side.",
+      "body": "Uranus has an axial tilt of about 98 degrees, so it appears to roll around the Sun like a ball rather than spinning upright like Earth.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "Mars has the largest volcano in the solar system.",
+      "body": "Olympus Mons rises more than 40 kilometres from base to summit — over four times the height of Mount Everest measured from sea level.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "cat": "Space",
+      "title": "Jupiter’s Great Red Spot is bigger than Earth.",
+      "body": "The Great Red Spot is a gigantic storm in Jupiter’s atmosphere. It is larger than Earth and has been observed for centuries.",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    {
+      "cat": "Earth",
+      "title": "About 97% of all water on Earth is saline.",
+      "body": "The oceans cover about 70% of Earth’s surface, and roughly 97% of all the water on and in Earth is salty rather than fresh.",
+      "source": "U.S. Geological Survey",
+      "sourceUrl": "https://www.usgs.gov/water-science-school/science/why-ocean-salty"
+    },
+    {
+      "cat": "Earth",
+      "title": "Seawater contains surprisingly large amounts of gold.",
+      "body": "The USGS estimates that a cubic mile of seawater can contain up to about 25 pounds of gold and 45 pounds of silver — although extracting it would be wildly impractical.",
+      "source": "U.S. Geological Survey",
+      "sourceUrl": "https://www.usgs.gov/faqs/why-ocean-salty"
+    },
+    {
+      "cat": "Earth",
+      "title": "Lightning can heat the air to about 30,000 °C.",
+      "body": "A lightning channel can heat the surrounding air to roughly 30,000 °C, making it about five times hotter than the Sun’s visible surface.",
+      "source": "NOAA",
+      "sourceUrl": "https://www.noaa.gov/jetstream/lightning/sound-of-thunder"
+    },
+    {
+      "cat": "Nature",
+      "title": "General Sherman is the largest tree in the world by volume.",
+      "body": "The giant sequoia known as General Sherman contains about 1,487 cubic metres of wood in its trunk — more than any other single tree.",
+      "source": "National Park Service",
+      "sourceUrl": "https://www.nps.gov/seki/learn/nature/sherman.htm"
+    },
+    {
+      "cat": "Nature",
+      "title": "General Sherman is about 2,200 years old.",
+      "body": "The giant sequoia is enormous, but it is also ancient. The latest age estimate from the National Park Service puts General Sherman at about 2,200 years old.",
+      "source": "National Park Service",
+      "sourceUrl": "https://www.nps.gov/places/000/general-sherman-tree.htm"
+    },
+    {
+      "cat": "Earth",
+      "title": "The Grand Canyon is only about 5 million years old — but its rocks are far older.",
+      "body": "The canyon itself was carved over millions of years, while many of the rocks exposed inside it are hundreds of millions to billions of years old.",
+      "source": "U.S. Geological Survey",
+      "sourceUrl": "https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-grand-canyon-national-park"
+    },
+    {
+      "cat": "Animals",
+      "title": "Giant pandas can spend up to 12 hours a day eating bamboo.",
+      "body": "Bamboo makes up about 90% of a giant panda’s diet, so pandas can spend roughly half their day eating to get enough energy.",
+      "source": "Smithsonian's National Zoo",
+      "sourceUrl": "https://nationalzoo.si.edu/webcams/panda-cam"
+    },
+    {
+      "cat": "Earth",
+      "title": "A 'supervolcano' eruption is defined as VEI 8.",
+      "body": "The term supervolcano refers to a volcanic centre that has produced an eruption with a Volcanic Explosivity Index of 8, involving more than 1,000 cubic kilometres of deposits. Yellowstone is one example.",
+      "source": "U.S. Geological Survey",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/yellowstone/questions-about-supervolcanoes"
+    },
+    {
+      "cat": "Earth",
+      "title": "Old Faithful is predictable — but not perfectly regular.",
+      "body": "As of January 2025, the median interval between Old Faithful eruptions was about 102 minutes, with intervals ranging from roughly 54 to 118 minutes.",
+      "source": "National Park Service",
+      "sourceUrl": "https://www.nps.gov/yell/planyourvisit/exploreoldfaithful.htm"
+    },
+    {
+      "cat": "Earth",
+      "title": "Death Valley once reached 57 °C.",
+      "body": "The highest officially recorded temperature in Death Valley is 134 °F (57 °C), measured on July 10, 1913.",
+      "source": "National Park Service",
+      "sourceUrl": "https://home.nps.gov/deva/faqs.htm"
+    },
+    {
+      "cat": "History",
+      "title": "The Bay Psalm Book was the first book printed in what is now the United States.",
+      "body": "Printed in Cambridge, Massachusetts, in 1640, the Bay Psalm Book is considered the first book printed in what is now the United States.",
+      "source": "Library of Congress",
+      "sourceUrl": "https://www.loc.gov/item/prn-15-061/"
+    },
+    {
+      "cat": "History",
+      "title": "Only 11 copies of the first Bay Psalm Book edition are known to survive.",
+      "body": "An estimated 1,700 copies were printed in 1640, but today only 11 copies of that first edition are known to survive.",
+      "source": "Library of Congress",
+      "sourceUrl": "https://wwws.loc.gov/exhibits/bay-psalm-book-and-american-printing/online-exhibition.html"
+    },
+    {
+      "cat": "Books",
+      "title": "The Library of Congress has a book about the size of a period.",
+      "body": "Its tiny copy of “Old King Cole” is listed as 1/25 of an inch by 1/25 of an inch — roughly the size of the dot at the end of a sentence.",
+      "source": "Library of Congress",
+      "sourceUrl": "https://www.loc.gov/about/fascinating-facts/"
+    }
+  ]
 }
