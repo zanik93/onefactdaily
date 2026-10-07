@@ -26,7 +26,7 @@ html = f"""<!doctype html><html><body style="margin:0;background:#f7f7f4;font-fa
 <p style="margin:0 0 6px;color:#686868;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Welcome! Today's fact · #{i+1:03d} · {f['cat']}</p>
 <h1 style="margin:22px 0 18px;font-size:34px;line-height:1.1">{f['title']}</h1>
 <p style="margin:0;font-size:17px;line-height:1.6;color:#454545">{f['body']}</p>
-<p style="margin:24px 0 0;color:#686868;font-size:13px">Source: {f['source']}</p></div>
+<p style="margin:24px 0 0;color:#686868;font-size:13px">Source: <a href="{f['sourceUrl']}" style="color:#686868;text-decoration:underline">{f['source']}</a></p></div>
 <p style="color:#686868;font-size:12px;line-height:1.6">You just subscribed to <a href="{SITE}" style="color:#686868">OneFactDaily</a>. Tomorrow your first fact arrives at 8:00. <a href="{{{{ unsubscribe }}}}" style="color:#686868">Unsubscribe</a></p>
 </div></body></html>"""
 
