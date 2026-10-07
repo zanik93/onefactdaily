@@ -149,20 +149,6 @@
       "sourceUrl": "https://www.usgs.gov/faqs/why-ocean-salty"
     },
     {
-      "cat": "Earth",
-      "title": "Lightning can heat the air to about 30,000 °C.",
-      "body": "A lightning channel can heat the surrounding air to roughly 30,000 °C, making it about five times hotter than the Sun’s visible surface.",
-      "source": "NOAA",
-      "sourceUrl": "https://www.noaa.gov/jetstream/lightning/sound-of-thunder"
-    },
-    {
-      "cat": "Nature",
-      "title": "General Sherman is the largest tree in the world by volume.",
-      "body": "The giant sequoia known as General Sherman contains about 1,487 cubic metres of wood in its trunk — more than any other single tree.",
-      "source": "National Park Service",
-      "sourceUrl": "https://www.nps.gov/seki/learn/nature/sherman.htm"
-    },
-    {
       "cat": "Nature",
       "title": "General Sherman is about 2,200 years old.",
       "body": "The giant sequoia is enormous, but it is also ancient. The latest age estimate from the National Park Service puts General Sherman at about 2,200 years old.",
@@ -207,16 +193,9 @@
     {
       "cat": "History",
       "title": "The Bay Psalm Book was the first book printed in what is now the United States.",
-      "body": "Printed in Cambridge, Massachusetts, in 1640, the Bay Psalm Book is considered the first book printed in what is now the United States.",
+      "body": "Printed in Cambridge, Massachusetts, in 1640, the Bay Psalm Book is considered the first book printed in what is now the United States. An estimated 1,700 copies were printed in 1640, but today only 11 copies of that first edition are known to survive.",
       "source": "Library of Congress",
       "sourceUrl": "https://www.loc.gov/item/prn-15-061/"
-    },
-    {
-      "cat": "History",
-      "title": "Only 11 copies of the first Bay Psalm Book edition are known to survive.",
-      "body": "An estimated 1,700 copies were printed in 1640, but today only 11 copies of that first edition are known to survive.",
-      "source": "Library of Congress",
-      "sourceUrl": "https://wwws.loc.gov/exhibits/bay-psalm-book-and-american-printing/online-exhibition.html"
     },
     {
       "cat": "Books",
